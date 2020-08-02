@@ -187,7 +187,7 @@ if(keyDown(LEFT_ARROW)){
 console.log(tank.x);
 console.log(tank.y);
 
-/*
+
 if(tank.isTouching(w1) || tank.isTouching(w2) || tank.isTouching(w3) || tank.isTouching(w4) || tank.isTouching(w5)){
   tank.x = 40;
   tank.y = 565;
@@ -224,7 +224,7 @@ if(tank.isTouching(w36) || tank.isTouching(w37) || tank.isTouching(w38) || tank.
 if(tank.isTouching(w41) || tank.isTouching(w42) || tank.isTouching(w43) || tank.isTouching(w44) || tank.isTouching(w45)){
   tank.x = 40;
   tank.y = 565;
-}*/
+}
   drawSprites();
   fill("red");
   textStyle("bold");
@@ -234,6 +234,5 @@ if(tank.isTouching(w41) || tank.isTouching(w42) || tank.isTouching(w43) || tank.
   fill(0);
   textStyle("bold");
   textSize(24);
-text(" ~ ~ ~ ~ Press Arrow Keys to Move the Tank ~ ~ ~ ~ ",700,30); 
 text("Be aware of walls !!!! If you touch them you will go at starting !!!!",100,610);
 }
